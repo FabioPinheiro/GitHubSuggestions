@@ -1,0 +1,12 @@
+> zip
+$ exists target/zip/scala-2.12.zip
+
+> assembly
+$ exists target/scala-2.12/foo.jar
+
+# check if it says hello
+> check
+
+> scalafmtGitHub
+
+$ pause

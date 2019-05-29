@@ -12,7 +12,9 @@ import org.eclipse.jgit.storage.file.FileRepositoryBuilder
 import org.eclipse.jgit.treewalk.{AbstractTreeIterator, CanonicalTreeParser, FileTreeIterator}
 
 import collection.JavaConverters._
-
+//THis is a small change
+//line16-1
+//line17-1
 object MainGit {
   val repositoryBuilder: FileRepositoryBuilder = new FileRepositoryBuilder()
   val repository: Repository = {
